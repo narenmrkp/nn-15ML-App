@@ -1,0 +1,15 @@
+streamlit
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+datasets
+transformers
+torch
+tensorflow
+xgboost
+lightgbm
+catboost
+python-dotenv
