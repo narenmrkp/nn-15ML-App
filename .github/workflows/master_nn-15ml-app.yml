@@ -3,7 +3,7 @@ name: Build & Push 15-ML App Docker Image
 on:
   push:
     branches:
-      - master
+      - dev
   workflow_dispatch:
 
 jobs:
@@ -40,3 +40,4 @@ jobs:
           echo "   Image: ${{ secrets.DOCKERHUB_USERNAME }}/ml-portfolio:latest"
           echo "   Tag: latest"
           echo "   Pull policy: Always or Latest"
+
